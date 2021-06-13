@@ -1,2 +1,2 @@
 # Portfolio-Website-IXD302
-https://rachelcatherinesproule.github.io/Portfolio-website-IXD302/Untitled-1.html
+https://rachelcatherinesproule.github.io/Portfolio-website-IXD302/index.html
