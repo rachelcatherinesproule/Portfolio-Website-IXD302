@@ -1,0 +1,461 @@
+/* General */
+
+body{
+    font-family:'Economica';
+    background-color: white;
+    margin: 0;
+}
+
+#page{padding: 7vw 10vw 7vw 10vw;}
+
+#page1{padding: 7vw 10vw 0vw 10vw;}
+
+.navbar-brand > img {
+    height: 35px;
+}
+
+/* End of General */
+
+/* nav bar */
+
+.nav-link {
+    font-size: 18pt; 
+}
+
+.nav-link:hover {
+    color: #FFFFFF!important;
+}
+
+nav {
+    background-color: #C6FDFF;
+    height: 53px;
+    margin-bottom: 10px;
+    font-family:'Economica';
+}
+
+.navbar-collapse.collapse.show {
+    background-color: #C6FDFF;
+}
+
+.navbar-collapse.collapsing {
+    background-color: #C6FDFF;
+}
+
+.navbar-light .navbar-toggler{
+    border: none; color: white;
+}
+
+.w-100 {
+    width: 70%!important;
+}
+
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+/* End of Nav*/
+
+/* Home Page */
+
+#Home img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.call-to-action-container {
+    display: block;
+}
+
+.call-to-action-container > img {
+    height: 80%;
+}
+
+.call-to-action-container > a {
+    border: 0.3vw solid #FFA500;
+    margin: 0 auto;
+    width: 550px;
+    display: block;
+    color: #FFA500;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 30pt;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:'Economica';
+}
+
+.call-to-action-container > a:hover{
+    text-decoration: none;
+    background-color: #FFA500;
+    color: white;
+}
+
+.background {
+    width: 100%;
+}
+
+/* End of Home Page*/
+
+/* About Page*/
+
+#AM{display: grid;grid-template-columns: 40% 60%;column-gap: 0vw;}
+
+#AM img {width:90%;}
+
+#AM2 {padding-left: 2vw;}
+
+#AM2 h2{color:#FFA500; font-size: 7vw;}
+
+#AM2 p{color: #126478; font-size: 3vw;}
+
+#AM2 a {color:#FFA500; text-decoration: none;}
+
+#AM2 a:hover{color: #FFD860}
+
+#square1{padding-left: 2vw; padding-right: 2vw;}
+
+#square{background-color: #00A2A8;border-radius: 2vw;}
+
+#IA1 h2{padding-top:4vw; font-size:7vw; color: #FFA500; text-align: center;}
+
+#IA2 {display: grid; grid-template-columns: 26% 11% 26% 11% 26%; padding-left: 8vw; padding-right: 8vw;}
+
+#IA2 img {width:100%; padding-top: 8vw;padding-bottom: 4vw;}
+
+#IA3 {display: grid;grid-template-columns: 32% 2% 32% 2% 32%;padding-left: 4vw; padding-right: 4vw; padding-bottom: 4vw}
+
+#IA3 h3 {color: white;text-align: center; font-size: 5vw;}
+
+#IA3 p{font-size: 2.5vw;color: white;text-align: center;}
+
+
+
+/* Work Page */
+
+#work h2 {
+    font-size: 7vw;
+    color: #FFA500;margin:0;}
+
+#work img {padding-top: 2vw;
+    padding-bottom: 4vw; width: 100%}
+
+#Inf {display: grid; 
+    grid-template-columns: 50% 50%; 
+    column-gap: 20vw;
+    padding-right: 4vw;
+    padding-left: 4vw;}
+
+#Inf h4 {font-size: 4vw; 
+    color: #FFA500;}
+
+#Inf ul { font-size: 2vw;
+    padding-left: 0;
+    color: #126478; }
+
+#Inf p {font-size: 2.5vw; color: #126478;;}
+
+#bottom h2 {text-align: center; 
+    font-size: 6vw;
+    color: #126478;
+    padding-top: 8vw;}
+
+#bottom1 {padding-left: 15vw; 
+    padding-right: 15vw;
+    padding-top: 2vw; 
+    font-size: 4vw}
+
+#bottom1 a {border: 0.3vw solid #FFA500;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    color: #FFA500;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:'Economica';}
+
+#bottom a:hover {text-decoration: none;
+    background-color: #FFA500;
+    color: white;}
+
+/* End of Work Page */
+
+/* Contact Page */
+
+#Cont {padding-top: 8vw;}
+
+#Cont h3 {padding-top: 2vw;
+    text-align: center; 
+    color:#126478; 
+    font-size: 4.5vw; }
+
+#Contt {padding-left: 15vw; 
+    padding-right: 15vw;
+    padding-top: 2vw; padding-bottom: 4vw; margin:0; 
+    font-size: 4vw}
+
+#Contt a {border: 0.3vw solid #FFA500;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    color: #FFA500;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:'Economica';}
+
+#Contt a:hover {text-decoration: none;
+    background-color: #FFA500;
+    color: white;}
+
+#Cont img{width:100%;}
+
+#Cont1 img {width:100%;
+    margin:0;}
+
+#Cont2 {background-color: #00A2A8;
+    margin:0;}
+
+
+/* Case study */
+
+#cs1{width:100%}
+
+#cs1 img{margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    width:80%; margin-bottom: 0;
+}
+
+#cs1 h2 {padding-top: 4vw;
+    font-size: 7vw;
+    color: #FFA500;margin:0;
+}
+
+#cs2{display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 4vw;
+    margin:0;}
+
+#cs2 img{width:100%;height:100%;}
+
+#cs2 p{font-size: 3vw;
+    color:#126478; 
+    padding-right: 2vw;
+    margin: 0;padding-bottom: 0px;}
+
+#cs3{display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 2vw;  
+    padding-right: 2vw;
+    font-size: 2vw;
+    align-content: center;
+    color: #126478}
+
+#cs3 h4{font-size: 4vw;
+    padding-top: 2vw;
+    margin-bottom: 0;
+    color: #FFA500;
+}
+
+#cs31 ul{padding-left: 0;
+    padding-left: 3vw; 
+    font-size: 2vw;}
+
+#cs32 ul{padding-left: 0;
+    padding-left: 3vw; 
+    font-size: 2vw;}
+
+#cs4 h2{padding-top: 4vw;
+    font-size: 7vw;
+    color: #FFA500;margin:0;
+}
+
+#cs4 p {font-size: 3vw;
+    color:#126478; 
+    margin: 0;
+}
+
+#cs5{display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 4vw;
+    padding-top: 4vw;}
+
+#cs5 img {width:95%;}
+
+#cs6{display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 4vw;
+    grid-template-rows: 45% 45% 10%;
+    padding-top: 4vw;
+}
+
+#cs6 h2{font-size: 7vw;
+    color: #FFA500;
+    margin:0;}
+
+#cs6 p {font-size: 3vw;
+    color:#126478; 
+    margin: 0;}
+
+#cs61 p {padding-top: 2vw;}
+
+#cs62 img{
+width:95%;
+    height: 100%;
+}
+
+#cs63 img{padding-top: 4vw;
+    width:100%; 
+    height 100%;
+}
+
+#cs64 {padding-top: 4vw;}
+
+#cs64 p {padding-top: 2vw;}
+
+#cs7 h2 {font-size: 7vw;
+    color: #FFA500;
+    margin:0;}
+
+#cs7 p{font-size: 3vw;
+    color:#126478; 
+    margin: 0;}
+
+#cs7 img {padding-top: 4vw;
+    padding-bottom: 4vw;
+    width:100%; 
+    height 100%;}
+
+#cs75{display: grid;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+    margin:none;}
+
+#cs75 h2{text-align: center;
+    padding-bottom: 10px;
+    font-size: 4vw;
+    color: #FFA500;
+    margin:0;}
+
+#cs75 img {padding-top: 4vw;
+    padding-bottom: 4vw;
+    width:100%; 
+    height 100%;}
+
+#cs75 p{font-size: 2.5vw;
+    color:#126478; 
+    margin: 0;}
+
+
+#cs8 {padding-top: 8vw;
+    align-content: center;}
+
+#cs8 h3{text-align: center; 
+    font-size: 6vw;
+    color: #126478; }
+
+#cs82 ul {list-style: none;padding-left: 0;}
+
+#cs821 {padding-left: 20vw; 
+    padding-right: 20vw;
+    padding-top: 4vw; 
+    font-size: 3vw;
+    margin: 0;}
+
+#cs821 a {border: 0.3vw solid #FFD860;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    color: #FFD860;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:'Economica';}
+
+#cs821 a:hover {text-decoration: none;
+    background-color: #FFD860;
+    color: white;}
+
+#cs822 {padding-left: 15vw; 
+    padding-right: 15vw;
+    padding-top: 2vw; 
+    font-size: 4vw}
+
+#cs822 a {border: 0.3vw solid #FFA500;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    color: #FFA500;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;    
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family:'Economica';}
+
+#cs822 a:hover {text-decoration: none;
+    background-color: #FFA500;
+    color: white;}
+
+
+/* End of Case Study One */
+
+/* footer */
+
+footer{display:grid;
+    width: 100%;
+    background-color: #C6FDFF;
+    margin:0;padding: 10px 20px 10px 20px;
+    margin:0;}
+
+#Contact{display: grid;grid-template-columns: 90% 10%}
+
+#Contact ul{list-style: none;}
+
+#Contact li{font-size: 4vw;padding-right: 60px;float: left;}
+
+#Contact a{text-decoration: none;
+    color: #126478;}
+
+#Contact a:hover{color: white;}
+
+#bird img{width:40%;padding-top: 1vw}
+
+
+@media only screen and (max-width: 670px) {
+    .call-to-action-container > img {
+        height: 60%;
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .call-to-action-container > a {
+        width: 80%;
+        font-size: 20pt;
+    }
+}
+
+
+@media only screen and (max-width: 470px) {
+    .call-to-action-container > a {
+        padding: 0px 3px;
+        font-size: 20pt;
+        width: 90%;
+    }
+}
+
+/* End of footer */
